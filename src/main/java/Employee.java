@@ -28,7 +28,7 @@ public class Employee {
 
     /**
      * Setter for name.
-     * @param name
+     * @param name the name of employee.
      */
     public void setName(final String name) {
         this.name = name;
@@ -44,7 +44,7 @@ public class Employee {
 
     /**
      * Setter for manager.
-     * @param manager
+     * @param manager manager of employee.
      */
     public void setManager(final String manager) {
         this.manager = manager;

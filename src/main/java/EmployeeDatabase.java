@@ -56,6 +56,15 @@ public class EmployeeDatabase {
         /*
          * Implement this function
          */
+        int count = 0;
+        Employee result = findManager(employee);
+        if (result != null) {
+            count += 1;
+            result = findManager(result);
+        } else {
+            return count;
+        }
+
     }
 
     /**
@@ -64,12 +73,14 @@ public class EmployeeDatabase {
      * Consider both a recursive and an iterative solution to this problem.
      *
      * @param employee name of the employee
-     * @return int
+     * @return integer. the number of employees under.
      */
     public int countEmployeesUnder(final Employee employee) {
         /*
          * Implement this function
          */
+        int count = 0;
+
     }
 
     /**
